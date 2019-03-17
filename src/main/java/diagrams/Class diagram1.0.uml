@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="33.0" y="0.0">models.Right</node>
+    <node x="236.0" y="301.0">models.Hashtag</node>
+    <node x="12.0" y="123.0">models.KwetterRole</node>
+    <node x="0.0" y="268.0">models.User</node>
+    <node x="118.12500000000001" y="477.0">models.Kweet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="models.User" target="models.KwetterRole">
+      <point x="-54.0" y="-69.5" />
+      <point x="54.0" y="243.0" />
+      <point x="60.0" y="243.0" />
+      <point x="-48.0" y="47.5" />
+    </edge>
+    <edge source="models.KwetterRole" target="models.Right">
+      <point x="0.0" y="-47.5" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="models.Hashtag" target="models.Kweet">
+      <point x="75.75" y="36.5" />
+      <point x="412.75" y="457.0" />
+      <point x="318.75" y="457.0" />
+      <point x="93.62499999999999" y="-69.5" />
+    </edge>
+    <edge source="models.Kweet" target="models.Hashtag">
+      <point x="13.375" y="-69.5" />
+      <point x="238.5" y="427.0" />
+      <point x="261.25" y="427.0" />
+      <point x="-75.75" y="36.5" />
+    </edge>
+    <edge source="models.Kweet" target="models.User">
+      <point x="-93.625" y="-69.5" />
+      <point x="131.5" y="457.0" />
+      <point x="27.0" y="457.0" />
+      <point x="-81.0" y="69.5" />
+    </edge>
+    <edge source="models.User" target="models.Kweet">
+      <point x="27.0" y="69.5" />
+      <point x="135.0" y="437.0" />
+      <point x="185.0" y="437.0" />
+      <point x="-40.125" y="-69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="55.5" y="307.5" />
+  <SelectedNodes>
+    <node>models.Right</node>
+    <node>models.KwetterRole</node>
+    <node>models.User</node>
+    <node>models.Kweet</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
